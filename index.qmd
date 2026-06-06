@@ -19,7 +19,7 @@ execute:
 
 ^b^Reckitt Science and Innovation Center, Dansom Lane, Hull, East Riding of Yorkshire, HU8 7DS, United Kingdom
 
-**GitHub Repository:** <https://github.com/anormanaz/hand-drying-project-1.0>
+**GitHub Repository:** <https://github.com/anormanaz/office-hygiene-qmra>
 
 ## Set up
 
