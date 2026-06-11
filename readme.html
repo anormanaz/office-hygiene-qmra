@@ -292,11 +292,13 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="quantifying-virus-transmission-risk-and-hygiene-intervention-effectiveness-in-shared-office-environments" class="level2">
 <h2 class="anchored" data-anchor-id="quantifying-virus-transmission-risk-and-hygiene-intervention-effectiveness-in-shared-office-environments"><strong>Quantifying Virus Transmission Risk and Hygiene Intervention Effectiveness in Shared Office Environments</strong></h2>
-<p>Authors: Royani Saha<sup>a</sup>, Jonathan D. Sexton<sup>a</sup>, Ashton Norman<sup>a</sup>, Yang Zhan<sup>a</sup>, Amanda M. Wilson<sup>a</sup>, Sophie E. Upson<sup>b</sup>, Shweta Malik<sup>b</sup>, Carolyn Buckley<sup>b</sup>, Lisa M. Ackerley<sup>b</sup>, Stephanie Cooper<sup>b</sup>, Lucas Gent<sup>b</sup>, and Kelly A. Reynolds<sup>a</sup></p>
-<p><sup>a</sup> Department of Community, Environment &amp; Policy, 1295 N. Martin Avenue, Mel and Enid Zuckerman College of Public Health, University of Arizona, Tucson, AZ, 85724 USA</p>
-<p><sup>b</sup>Reckitt Science and Innovation Center, Dansom Lane, Hull, East Riding of Yorkshire, HU8 7DS, United Kingdom</p>
-<p><strong>GitHub Repository:</strong></p>
-<p><strong>Supplementary Website:</strong></p>
+<p>Authors: Royani Saha(a), Jonathan D. Sexton(a), Ashton Norman(a), Yang Zhan(a), Amanda M. Wilson(a), Sophie E. Upson(b), Shweta Malik(b), Carolyn Buckley(b), Lisa M. Ackerley(b), Stephanie Cooper(b), Lucas Gent(b), and Kelly A. Reynolds(a)</p>
+<ol type="a">
+<li><p>Department of Community, Environment &amp; Policy, 1295 N. Martin Avenue, Mel and Enid Zuckerman College of Public Health, University of Arizona, Tucson, AZ, 85724 USA</p></li>
+<li><p>Reckitt Science and Innovation Center, Dansom Lane, Hull, East Riding of Yorkshire, HU8 7DS, United Kingdom</p></li>
+</ol>
+<p><strong>GitHub Repository:</strong> <a href="https://github.com/anormanaz/office-hygiene-qmra" class="uri">https://github.com/anormanaz/office-hygiene-qmra</a></p>
+<p><strong>Supplementary Website:</strong> <a href="https://anormanaz.github.io/office-hygiene-qmra/" class="uri">https://anormanaz.github.io/office-hygiene-qmra/</a></p>
 
 
 </section>
@@ -388,7 +390,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/anormanaz\.github\.io\/office-hygiene-qmra\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
